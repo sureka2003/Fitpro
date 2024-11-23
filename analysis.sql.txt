@@ -3,12 +3,14 @@
 
 Retrieve the name and membership_type of female members.
 
+...sql
 
 select  m.name,ms.membership_type
 from memberships as ms
 join members as m on ms.member_id = m.member_id
 where ms.gender = 'F';
 
+...
 
 Find members who have a Monthly membership and joined after 2023-11-01.
 
