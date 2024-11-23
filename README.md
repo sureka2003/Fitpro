@@ -62,19 +62,22 @@ The following queries were created to solve specific business questions. Each qu
 4. Get details of **visits** on a specific date (**2024-01-01**).
 5. List members with a **Quarterly membership** aged between **20 and 30**.
 
-Additional aggregations and grouping:
-6. Count total visits made by each member.
-7. Count members by membership type (e.g., Monthly, Weekly, Quarterly).
-8. Calculate the average age of members, grouped by membership type.
-9. Total visits for each visit date.
-10. Count members by status (e.g., Active or Cancelled).
+### Additional Aggregations and Grouping
 
-Advanced queries:
-11. Top 3 members with the highest visits.
-12. Active Monthly members grouped by membership type, sorted by recent join dates.
-13. Members with more than 2 visits, sorted by total visits, displaying the top 5.
-14. Members who joined in 2023, grouped by membership type (where each group has >1 member).
-15. Average age of active members, grouped by membership type, limited to the top 3 results.
+1. Count the total visits made by each member.  
+2. Count members by membership type (e.g., Monthly, Weekly, Quarterly).  
+3. Calculate the average age of members, grouped by membership type.  
+4. Calculate total visits for each visit date.  
+5. Count members by status (e.g., Active or Cancelled).  
+
+### Advanced Queries
+
+6. Identify the top 3 members with the highest visits.  
+7. List active monthly members grouped by membership type, sorted by recent join dates.  
+8. Retrieve members with more than 2 visits, sorted by total visits, displaying the top 5.  
+9. Identify members who joined in 2023, grouped by membership type (with each group having >1 member).  
+10. Calculate the average age of active members, grouped by membership type, limited to the top 3 results.
+
 
 ---
 
