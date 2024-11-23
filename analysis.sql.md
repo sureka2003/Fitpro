@@ -2,18 +2,21 @@
 
 **Retrieve the name and membership\_type of female members.**
 
+```sql
 select  m.name,ms.membership\_type  
 from memberships as ms  
 join members as m on ms.member\_id \= m.member\_id  
 where ms.gender \= 'F';
 
+```
 **Find members who have a Monthly membership and joined after 2023-11-01.**
 
+```sql
 select member\_id,age,gender  
 from memberships  
 where membership\_type \= 'Monthly'  
 and join\_date \> '2023-11-01';
-
+```
  **List the name and status of active members over 25\.**
 
 select m.name,ms.status  
