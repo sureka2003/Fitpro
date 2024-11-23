@@ -113,7 +113,7 @@ If you have any questions or feedback, feel free to create an issue or reach out
 ## Contact Me
 
 📄 **[Resume](#)**  
-📧 **[Email](surekafathimasf2003@gmail.com)**  
+📧**[Email](mailto:surekafathimasf2003@gmail.com)**
 📞 **Phone**: +91 82481 25454
 
 --
