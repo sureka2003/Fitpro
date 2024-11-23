@@ -1,12 +1,16 @@
-\-- Setup FitPro Database Schemas
+Setup FitPro Database Schemas
 
-\-- Create members table  
+ Create members table  
+
+ ```sql
 CREATE TABLE members (  
     member\_id INT PRIMARY KEY,  
     name VARCHAR(100)  
 );
+```
 
-\-- Create memberships table  
+ Create memberships table  
+ ```sql
 CREATE TABLE memberships (  
     member\_id INT PRIMARY KEY,  
     age INT,  
@@ -16,8 +20,10 @@ CREATE TABLE memberships (
     status VARCHAR(20),  
     FOREIGN KEY (member\_id) REFERENCES members(member\_id)  
 );
+```
 
-\-- Create visits table  
+ Create visits table  
+ ```sql
 CREATE TABLE visits (  
     visit\_id INT PRIMARY KEY,  
     member\_id INT,  
@@ -27,5 +33,8 @@ CREATE TABLE visits (
     FOREIGN KEY (member\_id) REFERENCES members(member\_id)  
 );
 
+```
+```sql
 SELECT 'All table created successful\!';  
-\-- Schemas Creation END  
+```
+ Schemas Creation END  
